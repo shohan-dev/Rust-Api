@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: rust-render-app
+    env: rust
+    buildCommand: "cargo build --release"
+    startCommand: "cargo run --release"
+    plan: free
